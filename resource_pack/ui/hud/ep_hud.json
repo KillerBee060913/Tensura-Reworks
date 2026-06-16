@@ -1,0 +1,83 @@
+{
+  "namespace": "tensura",
+  "ep_hud": {
+    "type": "panel",
+    "layer": 1,
+    "size": ["100%", "20%"],
+    "offset": [0, "30%"],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "ep_title": {
+          "type": "label",
+          "text": "Existence Points (EP)",
+          "font_size": "normal",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": ["10px", "5px"]
+        }
+      },
+      {
+        "ep_total": {
+          "type": "label",
+          "text": "Total EP: 150,000",
+          "font_size": "small",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": ["10px", "20px"]
+        }
+      },
+      {
+        "ep_level": {
+          "type": "label",
+          "text": "Level: Special A-Grade",
+          "font_size": "small",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": ["10px", "35px"]
+        }
+      },
+      {
+        "ep_breakdown_label": {
+          "type": "label",
+          "text": "Breakdown:",
+          "font_size": "small",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": ["10px", "50px"]
+        }
+      },
+      {
+        "ep_magicule_component": {
+          "type": "label",
+          "text": "Magicules: 50,000",
+          "font_size": "small",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": ["20px", "65px"]
+        }
+      },
+      {
+        "ep_physical_component": {
+          "type": "label",
+          "text": "Physical: 75,000",
+          "font_size": "small",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": ["20px", "80px"]
+        }
+      },
+      {
+        "ep_spiritron_component": {
+          "type": "label",
+          "text": "Spiritron: 25,000",
+          "font_size": "small",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": ["20px", "95px"]
+        }
+      }
+    ]
+  }
+}

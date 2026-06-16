@@ -1,0 +1,92 @@
+{
+  "namespace": "tensura",
+  "loading_screen": {
+    "type": "screen",
+    "screen_size": ["100%", "100%"],
+    "controls": [
+      {
+        "background": {
+          "type": "image",
+          "texture": "tensura:loading_screen_bg",
+          "size": ["100%", "100%"],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "layer": 0
+        }
+      },
+      {
+        "title": {
+          "type": "label",
+          "text": "Tensura Reworks",
+          "font_size": "large",
+          "text_color": "#FFFFFFFF",
+          "shadow": true,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [0, "-120px"],
+          "layer": 1
+        }
+      },
+      {
+        "subtitle": {
+          "type": "label",
+          "text": "That Time I Got Reincarnated as a Slime",
+          "font_size": "small",
+          "text_color": "#FFFF99FF",
+          "shadow": true,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [0, "-90px"],
+          "layer": 1
+        }
+      },
+      {
+        "loading_bar_bg": {
+          "type": "panel",
+          "size": ["200px", "20px"],
+          "background_color": "#00000080",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [0, "80px"],
+          "layer": 1
+        }
+      },
+      {
+        "loading_bar_fill": {
+          "type": "panel",
+          "size": ["100px", "20px"],
+          "background_color": "#00FFFFFF",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [-50, "80px"],
+          "layer": 2
+        }
+      },
+      {
+        "loading_text": {
+          "type": "label",
+          "text": "Initializing Systems...",
+          "font_size": "small",
+          "text_color": "#FFFFFFFF",
+          "shadow": true,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [0, "120px"],
+          "layer": 1
+        }
+      },
+      {
+        "version_text": {
+          "type": "label",
+          "text": "Version 0.0.1",
+          "font_size": "small",
+          "text_color": "#CCCCCCFF",
+          "anchor_from": "bottom_right",
+          "anchor_to": "bottom_right",
+          "offset": [-10, -10],
+          "layer": 1
+        }
+      }
+    ]
+  }
+}

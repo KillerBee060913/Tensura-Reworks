@@ -1,31 +1,32 @@
 {
   "format_version": 2,
   "header": {
-    "description": "Tensura Reworks - A slime-themed addon with magicule, aura, and EP systems",
-    "name": "Tensura Reworks Behavior Pack",
-    "uuid": "550e8400-e29b-41d4-a716-446655440000",
-    "version": [
-      1,
-      26,
-      30
-    ]
+    "description": "Tensura Reworks - That Time I Got Reincarnated as a Slime addon with Magicules, Aura, and EP systems",
+    "name": "Tensura Reworks",
+    "uuid": "12345678-1234-5678-1234-567812345678",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 26, 30]
   },
   "modules": [
     {
-      "description": "Tensura Reworks Behavior Module",
-      "type": "behavior",
-      "uuid": "550e8400-e29b-41d4-a716-446655440001",
-      "version": [
-        1,
-        26,
-        30
-      ]
+      "description": "Tensura Reworks Behavior Pack",
+      "type": "data",
+      "uuid": "87654321-4321-8765-4321-876543218765",
+      "version": [0, 0, 1]
+    },
+    {
+      "description": "Tensura Reworks Script Module",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "11111111-2222-3333-4444-555555555555",
+      "version": [0, 0, 1],
+      "entry": "scripts/main.js"
     }
   ],
   "dependencies": [
     {
-      "module_name": "@minecraft/server",
-      "version": "1.0.0"
+      "uuid": "b26e4d4a-b572-491c-811d-5e57201fb4d1",
+      "version": [1, 0, 0]
     }
   ]
 }

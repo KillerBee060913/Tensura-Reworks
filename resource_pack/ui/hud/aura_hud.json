@@ -1,0 +1,53 @@
+{
+  "namespace": "tensura",
+  "aura_hud": {
+    "type": "panel",
+    "layer": 1,
+    "size": ["100%", "15%"],
+    "offset": [0, "15%"],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "aura_title": {
+          "type": "label",
+          "text": "Aura",
+          "font_size": "normal",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": ["10px", "5px"]
+        }
+      },
+      {
+        "aura_passive": {
+          "type": "label",
+          "text": "Passive: 25",
+          "font_size": "small",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": ["10px", "20px"]
+        }
+      },
+      {
+        "aura_active": {
+          "type": "label",
+          "text": "Active: 0",
+          "font_size": "small",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": ["10px", "35px"]
+        }
+      },
+      {
+        "aura_control_status": {
+          "type": "label",
+          "text": "Control: Inactive",
+          "font_size": "small",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": ["120px", "20px"]
+        }
+      }
+    ]
+  }
+}

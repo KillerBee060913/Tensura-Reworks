@@ -1,0 +1,53 @@
+{
+  "namespace": "tensura",
+  "magicule_hud": {
+    "type": "panel",
+    "layer": 1,
+    "size": ["100%", "15%"],
+    "offset": [0, 0],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "magicule_title": {
+          "type": "label",
+          "text": "Magicules",
+          "font_size": "normal",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": ["10px", "5px"]
+        }
+      },
+      {
+        "magicule_bar_background": {
+          "type": "panel",
+          "size": ["150px", "15px"],
+          "background_color": "#000000AA",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": ["10px", "20px"]
+        }
+      },
+      {
+        "magicule_bar_fill": {
+          "type": "panel",
+          "size": ["75px", "15px"],
+          "background_color": "#00FFFFFF",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": ["10px", "20px"]
+        }
+      },
+      {
+        "magicule_value": {
+          "type": "label",
+          "text": "50000 / 100000",
+          "font_size": "small",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": ["170px", "22px"]
+        }
+      }
+    ]
+  }
+}

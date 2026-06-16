@@ -1,25 +1,18 @@
 {
   "format_version": 2,
   "header": {
-    "description": "Tensura Reworks - A slime-themed addon with magicule, aura, and EP systems",
-    "name": "Tensura Reworks Resource Pack",
-    "uuid": "660e8400-e29b-41d4-a716-446655440000",
-    "version": [
-      1,
-      26,
-      30
-    ]
+    "description": "Tensura Reworks - Resource Pack with Custom UI and Loading Screen",
+    "name": "Tensura Reworks",
+    "uuid": "99999999-8888-7777-6666-555555555555",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 26, 30]
   },
   "modules": [
     {
-      "description": "Tensura Reworks Resource Module",
+      "description": "Tensura Reworks Resource Pack",
       "type": "resources",
-      "uuid": "660e8400-e29b-41d4-a716-446655440001",
-      "version": [
-        1,
-        26,
-        30
-      ]
+      "uuid": "88888888-9999-1111-2222-333333333333",
+      "version": [0, 0, 1]
     }
   ]
 }
