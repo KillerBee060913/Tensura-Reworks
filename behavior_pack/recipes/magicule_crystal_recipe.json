@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "tensura:magicule_crystal"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "###",
+      "#X#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "X": {
+        "item": "minecraft:glowstone"
+      }
+    },
+    "result": {
+      "item": "minecraft:diamond",
+      "count": 1
+    }
+  }
+}

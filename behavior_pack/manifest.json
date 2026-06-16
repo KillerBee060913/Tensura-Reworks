@@ -1,0 +1,31 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Tensura Reworks - A slime-themed addon with magicule, aura, and EP systems",
+    "name": "Tensura Reworks Behavior Pack",
+    "uuid": "550e8400-e29b-41d4-a716-446655440000",
+    "version": [
+      1,
+      26,
+      30
+    ]
+  },
+  "modules": [
+    {
+      "description": "Tensura Reworks Behavior Module",
+      "type": "behavior",
+      "uuid": "550e8400-e29b-41d4-a716-446655440001",
+      "version": [
+        1,
+        26,
+        30
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.0.0"
+    }
+  ]
+}

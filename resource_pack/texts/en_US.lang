@@ -1,0 +1,24 @@
+# Tensura Reworks Language File
+
+# System Names
+tensura.magicule.name=Magicule
+tensura.aura.name=Aura
+tensura.ep.name=Energy Points
+
+# Skill Names
+tensura.skill.slime_strike=Slime Strike
+tensura.skill.predation=Predation
+tensura.skill.regeneration=Regeneration
+tensura.skill.mimicry=Mimicry
+tensura.skill.thought_acceleration=Thought Acceleration
+
+# Skill Descriptions
+tensura.skill.slime_strike.desc=Basic melee attack with magicule boost. Cost: 30 EP, 20 Magicule
+tensura.skill.predation.desc=Consume nearby entities to gain resources. Cost: 50 EP, 40 Magicule
+tensura.skill.regeneration.desc=Restore health using aura. Cost: 40 EP, 30 Aura
+tensura.skill.mimicry.desc=Copy properties of absorbed materials. Cost: 35 EP, 25 Magicule
+tensura.skill.thought_acceleration.desc=Temporarily increase speed and reflexes. Cost: 45 EP, 35 Magicule
+
+# Messages
+tensura.addon.loaded=Tensura Reworks loaded successfully!
+tensura.addon.init=Initializing Tensura systems...
