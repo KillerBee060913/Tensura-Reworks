@@ -1,0 +1,46 @@
+{
+  "sound_definitions": {
+    "tensura.magicule.absorb": {
+      "category": "player",
+      "sounds": [
+        "sounds/magic/magicule_absorb"
+      ],
+      "volume": 0.8
+    },
+    "tensura.magicule.evolution": {
+      "category": "ambient",
+      "sounds": [
+        "sounds/magic/evolution_complete"
+      ],
+      "volume": 1.0
+    },
+    "tensura.aura.activate": {
+      "category": "player",
+      "sounds": [
+        "sounds/aura/aura_activate"
+      ],
+      "volume": 0.9
+    },
+    "tensura.aura.demon_lord_haki": {
+      "category": "ambient",
+      "sounds": [
+        "sounds/aura/demon_lord_haki"
+      ],
+      "volume": 1.0
+    },
+    "tensura.ep.level_up": {
+      "category": "player",
+      "sounds": [
+        "sounds/ep/level_up"
+      ],
+      "volume": 0.85
+    },
+    "tensura.loading.start": {
+      "category": "ui",
+      "sounds": [
+        "sounds/ui/loading_start"
+      ],
+      "volume": 0.7
+    }
+  }
+}

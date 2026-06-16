@@ -1,0 +1,17 @@
+{
+  "resource_pack_version": 2,
+  "textures": {
+    "loading_screen": {
+      "path": "textures/ui/loading_screen_bg"
+    },
+    "tensura_logo": {
+      "path": "textures/ui/tensura_logo"
+    },
+    "loading_bar_frame": {
+      "path": "textures/ui/loading_bar_frame"
+    },
+    "loading_bar_fill": {
+      "path": "textures/ui/loading_bar_fill"
+    }
+  }
+}

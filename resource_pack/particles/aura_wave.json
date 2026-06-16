@@ -1,0 +1,48 @@
+{
+  "format_version": "1.10.0",
+  "particle_effect": {
+    "description": {
+      "identifier": "tensura:aura_wave",
+      "material": "particles_alpha",
+      "texture": "textures/particle/particles"
+    },
+    "emitters": [
+      {
+        "description": {
+          "identifier": "tensura:aura_wave_emitter",
+          "capacity": 256,
+          "max_particles_per_frame": 32,
+          "spawn_rate": 64,
+          "lifetime": [0.5, 1.5]
+        },
+        "rate": {
+          "spawn_rate": 64
+        },
+        "initialization": {
+          "per_particle_initialization": "variable.lifetime = math.random(0.5, 1.5);
+variable.age = 0.0;
+variable.distance = math.random(1, 5);
+variable.angle = math.random(0, 360);
+variable.vel_x = math.cos(math.radians(variable.angle)) * 3;
+variable.vel_z = math.sin(math.radians(variable.angle)) * 3;
+variable.vel_y = 0.5;"
+        },
+        "update": {
+          "per_update_tick": "variable.age += 0.016;
+variable.vel_y *= 0.95;
+variable.vel_x *= 0.97;
+variable.vel_z *= 0.97;"
+        },
+        "render": {
+          "template": "generic",
+          "geometry": "geometry.billboard",
+          "material_instances": {
+            "*.material_instance": {
+              "material": "particles_blend"
+            }
+          }
+        }
+      }
+    ]
+  }
+}
